@@ -15,5 +15,5 @@ Visualizing Data
 
 
 
-![about_data!](https://github.com/EyuaelB/huletshi_shilmat/blob/master/screenshots/about_data.png)
+![about_data!](https://github.com/EyuaelB/huletshi_shilmat/blob/master/screenshots/about_data_page.png)
 
