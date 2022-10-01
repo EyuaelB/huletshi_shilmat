@@ -3,7 +3,6 @@ import streamlit as st
 import tools
 
 
-
 def model_try_out_page():
     st.title("የ፪ ሺህ ሓበሻ የባህል ምግብ አዳራሽ የሙዚቃ ባንድ የዕለት ሽልማት መተንበያ ድረ-ገፅ")
     st.write("""### የሽልማት ትንበያ ቀኑን ያስገቡ""")
