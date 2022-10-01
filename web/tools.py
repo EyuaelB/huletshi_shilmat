@@ -1,5 +1,4 @@
 import pickle
-import  streamlit as st
 
 
 def load_model_data(pkl_path):

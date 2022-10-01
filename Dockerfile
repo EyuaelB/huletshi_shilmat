@@ -1,14 +1,18 @@
 FROM python:3.10.4
 
-WORKDIR /usr/bin/app
+WORKDIR /app
 
-COPY requirements.txt ./
+COPY requirements.txt ./requirements.txt
 
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip3 install -r requirements.txt
 
-COPY . .
+COPY . /app
 
-CMD ["streamlit","run", "web\\app.py"]
+EXPOSE 8501
+
+ENTRYPOINT ["streamlit","run"]
+
+CMD ["web/app.py"]
 
 
 
