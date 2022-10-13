@@ -94,7 +94,7 @@ def model_try_out_page():
               
         y_pred = model.predict(input)
         
-        st.subheader(f'የሽልማት መጠን/Predicted Income {y_pred[0]:.2f}')
+        st.subheader(f'የሽልማት መጠን/Predicted Income for {month},{day},{input_day_of_month} :  {y_pred[0]:.2f}')
 
    
         
