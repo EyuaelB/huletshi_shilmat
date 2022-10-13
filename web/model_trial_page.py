@@ -76,22 +76,21 @@ def model_try_out_page():
     
     
     # Last Input
-    input_year = st.slider('ዓ.ዓ/Year',2022,2025,2022)
+    # input_year = st.slider('ዓ.ዓ/Year',2022,2025,2022)
     
     
     # input_date = st.date_input("ቀን")
   
     clicked = st.button("ተንብይ")
     if clicked:
-        data = tools.load_model_data('xgmodel27.pkl')
+        data = tools.load_model_data('xgmodel31.pkl')
         model = tools.get_model(data)
         
         
         # input format -  DayName,DayOfTheWeek,DayOfTheMonth,Month,Year
         input = np.array([[tools.feature_day_of_week(day,day_opt),
                            input_day_of_month,
-                           tools.feature_day_of_month(month,month_opt),
-                           input_year]])
+                           tools.feature_day_of_month(month,month_opt)]])
               
         y_pred = model.predict(input)
         
