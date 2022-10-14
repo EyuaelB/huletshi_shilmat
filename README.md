@@ -4,7 +4,7 @@ This is a simple web app hosting a machine learning model built with streamlit t
 
 The income comes from customers as they give money to dancers and singer and muscians in expression of their appreciation of the entertainment of the night. this then all counted and divided equally b/n all muscians, singers and dancers and sound engineer(me).
 
-The data is only 19 records and counting, I'll be updating it reatime.
+The data is only 32 records and counting, I'll be updating it in realtime.
 
 to run file
 docker run -p 8501 huletshi_shilmat

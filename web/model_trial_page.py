@@ -83,7 +83,7 @@ def model_try_out_page():
   
     clicked = st.button("ተንብይ")
     if clicked:
-        data = tools.load_model_data('xgmodel31.pkl')
+        data = tools.load_model_data('ext_model32.pkl')
         model = tools.get_model(data)
         
         
